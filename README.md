@@ -12,7 +12,7 @@ A Python script to constantly watch your clipboard content, and download if its 
 4. Run Youtube.py
 
 #Screenshot:
-![alt tag](https://raw.githubusercontent.com/vishnugt/youtube_dl-plugin/edit/master/screenshot.png)
+![alt tag](https://raw.githubusercontent.com/vishnugt/youtube_dl-plugin/master/screenshot.png)
 
 # You are good to go!
 
