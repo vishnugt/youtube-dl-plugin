@@ -13,12 +13,12 @@ def is_url_but_not_bitly(url):
     return False
 
 def print_to_stdout(clipboard_content):
-    print "     Yosh! Found an URL"
+    print(" !")
     tempstring = str(clipboard_content)
     pyperclip.copy('')
-    print "     Launching youtube-dl to download"
+    #print "@"
     with open(os.devnull, "w") as fnull:
-        subprocess.call("start youtube "+tempstring, stdout = fnull, stderr = fnull, shell = True)
+        subprocess.call("start youtube.exe "+tempstring, stdout = fnull, stderr = fnull, shell = True)
     
 class ClipboardWatcher(threading.Thread):
     def __init__(self, predicate, callback, pause=5.):
@@ -48,7 +48,7 @@ def main():
     watcher.start()
     while True:
         try:
-            print "Waiting for a youtube URL..."
+            sys.stdout.write('.')
             time.sleep(10)
         except KeyboardInterrupt:
             watcher.stop()
