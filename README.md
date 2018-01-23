@@ -6,7 +6,8 @@ A Python script to constantly watch your clipboard content, and download if its 
 
 
 # Python Libraries you need to install:
-	-> [Pyperclip](https://pypi.python.org/pypi/pyperclip)
+   -> [Pyperclip](https://pypi.python.org/pypi/pyperclip)
+   
 Windows users can download it from [here](https://pypi.python.org/packages/5b/06/86e3c6a55cacef0e4ec7c25379ff7fcd1a88fd939ecefd442b535c792fa4/pyperclip-1.6.0.tar.gz)
 
 Linux users can grab it by typing the following in terminal
