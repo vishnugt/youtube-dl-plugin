@@ -7,7 +7,7 @@ A Python script to constantly watch your clipboard content, and download if its 
 # Automatic setup and starting [Limited to Linux based OS at the moment]:
 * git clone 'https://github.com/vishnugt/youtube-dl-plugin.git'
 * cd youtube-dl-plugin
-* sh ./autoun.sh
+* sh ./autorun.sh
 
 # Python Libraries you need to install:
    -> [Pyperclip](https://pypi.python.org/pypi/pyperclip)
