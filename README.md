@@ -1,5 +1,4 @@
 
-[![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/) 
 
 # Youtube-dl plugin to automatically start your download:
 A Python script to constantly watch your clipboard content, and download if its a youtube link!
